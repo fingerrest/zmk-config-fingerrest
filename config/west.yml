@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: danielsvane
+      url-base: https://github.com/danielsvane
+  projects:
+    - name: zmk
+      remote: danielsvane
+      revision: customkeyboards
+      import: app/west.yml
+  self:
+    path: config

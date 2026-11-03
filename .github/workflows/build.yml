@@ -1,0 +1,7 @@
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    # danielsvane's ZMK fork (Zephyr 4.1, runtime-editable combos and behaviors),
+    # matching config/west.yml.
+    uses: danielsvane/zmk/.github/workflows/build-user-config.yml@customkeyboards

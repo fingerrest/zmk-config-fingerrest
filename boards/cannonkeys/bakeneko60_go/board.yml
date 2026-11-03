@@ -1,0 +1,7 @@
+board:
+  name: bakeneko60_go
+  vendor: cannonkeys
+  socs:
+    - name: nrf52840
+      variants:
+        - name: zmk

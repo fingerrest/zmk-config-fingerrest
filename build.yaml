@@ -1,0 +1,7 @@
+# Boards built by CI and by build.sh. Studio is on, so the firmware takes the
+# studio-rpc-usb-uart snippet; unlock with &studio_unlock (layer 1 in the keymap).
+include:
+  - board: bakeneko60_go/nrf52840/zmk
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: bakeneko60_go-studio
